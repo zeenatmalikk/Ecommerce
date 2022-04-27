@@ -1,0 +1,279 @@
+.body-slider{
+  height: 80vh;
+}
+
+.search {
+  position: absolute;
+  z-index: 100;
+  top: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.search input {
+  width: 60%;
+  padding: 12px;
+  outline: none;
+  border: none;
+  border-radius: 6px;
+  caret-color: #da251c;
+
+  height: 45px;
+}
+.search input[type="search"] {
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 400;
+}
+.sear {
+  font-size: 20px;
+  color: #fff;
+}
+.search-btn {
+  height: 45px;
+  width: 70px;
+  position: relative;
+  right: 70px;
+  border: none;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  background-color: #da251c;
+  cursor: pointer;
+}
+.search input::placeholder {
+  font-size: 16px;
+  text-transform: capitalize;
+  padding: 10px 7px;
+  color: gray;
+}
+@media only screen and (max-width: 600px) {
+  .body-slider{
+    height: 55vh;
+  }
+  .search {
+    position: absolute;
+    z-index: 100;
+
+    /* display: flex;
+    justify-content: center;
+    
+    align-items: center; */
+    /* transform: translate(10%, -30%); */
+
+    width: 100%;
+  }
+  .search input {
+    width: 80%;
+    padding: 12px;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    caret-color: #da251c;
+    height: 45px;
+    transform: translate(10%, -30%);
+  }
+  .search-btn {
+    position: relative;
+    right: 35px;
+    bottom: 14px;
+  }
+}
+.callouts1 {
+  height: 300px;
+  width: 100%;
+  /* margin: 0 5px; */
+  position: relative;
+
+  /* border-radius: 10px; */
+  /* margin: 0 5px; */
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(https://d1qek42f5a2sdm.cloudfront.net/temp/cuploads/ap-south-1%3A6187b898-d6c8-4cec-8477-df02c3470770/sananightwear/products/1642503037164SHREERADHE17481.jpg);
+    background-position: 50% 85%;
+
+  background-repeat: no-repeat;
+}
+.callouts {
+  height: 400px;
+  width: 100%;
+  margin: 0 5px;
+  position: relative;
+
+  /* border-radius: 10px; */
+  -webkit-clip-path: polygon(
+    0% 0%,
+    100% 0%,
+    100% 75%,
+    28% 75%,
+    23% 82%,
+    17% 75%,
+    0% 75%
+  );
+  clip-path: polygon(
+    0% 0%,
+    100% 0%,
+    100% 75%,
+    28% 75%,
+    23% 82%,
+    17% 75%,
+    0% 75%
+  );
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(https://d1qek42f5a2sdm.cloudfront.net/temp/cuploads/ap-south-1%3A6187b898-d6c8-4cec-8477-df02c3470770/sananightwear/products/1640344967927SHREERADHE17179.jpg);
+    background-position: 43% 46%;
+
+}
+
+.callouts2 {
+  height: 200px;
+  width: 100%;
+  position: relative;
+  bottom: 100%;
+  -webkit-clip-path: polygon(
+    0 100%,
+    100% 100%,
+    100% 0,
+    78.5% 0,
+    73.5% 14%,
+    67.6% 0,
+    0 0
+  );
+  clip-path: polygon(
+    0 100%,
+    100% 100%,
+    100% 0,
+    78.5% 0,
+    73.5% 14%,
+    67.6% 0,
+    0 0
+  );
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(https://d1qek42f5a2sdm.cloudfront.net/temp/cuploads/ap-south-1%3A6187b898-d6c8-4cec-8477-df02c3470770/sananightwear/products/1642503736855SHREERADHE17525.jpg);
+  background-position: 50% 60%;
+}
+.callouts3 {
+  height: 200px;
+  width: 96%;
+  margin: 0 5px;
+
+  position: relative;
+  bottom: 100%;
+
+  border-radius: 10px;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(https://d1qek42f5a2sdm.cloudfront.net/temp/cuploads/ap-south-1%3A6187b898-d6c8-4cec-8477-df02c3470770/sananightwear/products/1642503474905SHREERADHE17541.jpg);
+    background-position: 60% 80%;
+}
+.callouts4 {
+  height: 503px;
+  width: 100%;
+  /* margin: 0 5px; */
+
+  position: relative;
+
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  /* -webkit-clip-path: polygon(
+    0% 0%,
+    100% 0%,
+    100% 33%,
+    89% 37.4%,
+    100% 42%,
+    100% 100%,
+    0 100%
+  );
+  clip-path: polygon(
+    0% 0%,
+    100% 0%,
+    100% 33%,
+    89% 37.4%,
+    100% 42%,
+    100% 100%,
+    0 100%
+  ); */
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(https://d1qek42f5a2sdm.cloudfront.net/temp/cuploads/ap-south-1%3A6187b898-d6c8-4cec-8477-df02c3470770/sananightwear/products/1642497160791SHREERADHE17586.jpg);
+  background-position: 46% 37%;
+}
+.callouts5 {
+  height: 400px;
+  width: 98%;
+  margin: 0px 5px;
+
+  position: relative;
+  /* right: 10px; */
+  /* border-radius: 10px; */
+  -webkit-clip-path: polygon(
+    0% 0%,
+    100% 0%,
+    100% 75.9%,
+    70.5% 76%,
+    64% 89%,
+    57% 76%,
+    0% 75.9%
+  );
+  clip-path: polygon(
+    0% 0%,
+    100% 0%,
+    100% 75.9%,
+    70.5% 76%,
+    64% 89%,
+    57% 76%,
+    0% 75.9%
+  );
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(https://d1qek42f5a2sdm.cloudfront.net/temp/cuploads/ap-south-1%3A6187b898-d6c8-4cec-8477-df02c3470770/sananightwear/products/1642502403831SHREERADHE17572.jpg);
+  background-position: 50% 85%;
+}
+.callouts6 {
+  height: 196px;
+  width: 98%;
+  margin: 0px 5px;
+  border-bottom-left-radius: 10px;
+  bottom: 98.2%;
+  position: relative;
+  -webkit-clip-path: polygon(
+    0 100%,
+    100% 100%,
+    100% 0,
+    71% 0,
+    64% 28%,
+    56% 0,
+    0 0
+  );
+  clip-path: polygon(0 100%, 100% 100%, 100% 0, 71% 0, 64% 28%, 56% 0, 0 0);
+
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(https://d1qek42f5a2sdm.cloudfront.net/temp/cuploads/ap-south-1%3A6187b898-d6c8-4cec-8477-df02c3470770/sananightwear/products/1642502706063SHREERADHE17464.jpg);
+  background-position: 50% 70%;
+}
+.flex-img1 {
+  width: 100%;
+  display: flex;
+}
+@media only screen and (max-width: 600px) {
+  .callouts {
+    clip-path: none;
+    height: 200px;
+    margin: 0;
+  }
+  .callouts4 {
+    clip-path: none;
+    height: 200px;
+    margin: 0;
+  }
+
+
+  .callouts5 {
+    clip-path: none;
+    height: 200px;
+    margin: 0;
+    width: 100%;
+  }
+  .callouts3 {
+    display: none;
+  }
+  .callouts6 {
+    display: none;
+  }
+}

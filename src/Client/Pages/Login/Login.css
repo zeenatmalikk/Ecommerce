@@ -1,0 +1,59 @@
+.login{
+    height: 89.5vh;
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.5),
+        rgba(255, 255, 255, 0.5)
+      ),
+      url("https://cdn.pixabay.com/photo/2016/06/20/13/44/paper-1468883_960_720.jpg")
+        center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+      
+}
+
+.sub-l{
+    font-family: "Alegreya SC", serif;
+    font-size: 58px;
+    margin: 10px;
+    padding: 10px;
+}
+.log-card{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #f9f9f9;
+    box-shadow: 0 3px 4px ;
+    border-radius: 10px;
+    opacity: 1;
+}
+@media only screen and (max-width: 500px) {
+    .log-card{
+        width: 100%;
+    }
+  }
+  
+
+  .btn-2 {
+    letter-spacing: 0;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    font-size:16px;
+    font-weight: 400;
+    line-height: 40px;
+    margin: 0 0 2em;
+    max-width: 160px; 
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 100%; 
+    background-color: #DA251C;
+    outline: none;
+    border: 2px solid #DA251C;
+    border-radius: 6px;
+}
+

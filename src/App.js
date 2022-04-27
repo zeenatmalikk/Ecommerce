@@ -1,23 +1,42 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import {
+  BrowserRouter as Router,
+  Navigate,
+  Route,
+  Routes,
+} from "react-router-dom";
+import Navbar from "./Client/Component/Navbar/Navbar";
+import Home from "./Client/Component/Home";
+import ProductList from "./Client/Pages/ProductList/ProductList";
+import Singleproduct from "./Client/Pages/SingleProduct/Singleproduct";
+import Register from "./Client/Pages/Register/Register";
+import Login from "./Client/Pages/Login/Login";
+import { useSelector } from "react-redux";
+import CartNew from "./Client/Pages/Cart/CartNew";
 
 function App() {
+  const user = useSelector((state)=>state.user.currentUser);
+  console.log("userrr",user);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Router>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home />}></Route>
+          <Route path="products/:category" element={<ProductList />}></Route>
+          <Route path="product/:id" element={<Singleproduct />}></Route>
+
+          <Route
+            path="register"
+            element={user ? <Navigate to="/" /> : <Register />}
+          ></Route>
+          <Route
+            path="login"
+            element={user ? <Navigate to="/" /> : <Login />}
+          ></Route>
+          <Route path="/cart" element={<CartNew />}></Route>
+        </Routes>
+      </Router>
     </div>
   );
 }

@@ -1,0 +1,69 @@
+.n-body {
+  background-color: #da251c;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 5% 0;
+  border: 20px double #fff;
+  border-radius: 10px;
+}
+
+.n-title {
+  font-family: "Alegreya SC", serif;
+  font-weight: 600;
+  word-spacing: 4px;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  color: #fff;
+  font-size: 35px;
+}
+.n-desc {
+  font-family: "Alegreya SC", serif;
+  font-weight: 500;
+  word-spacing: 4px;
+  text-align: center;
+  font-size: 19px;
+  padding: 0;
+  margin: 0;
+  text-transform: capitalize;
+  color: #fff;
+}
+
+.n-search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 10px 0;
+}
+.n-search input {
+  width: 60%;
+  height: 30px;
+  padding: 5px;
+  font-size: 18px;
+  font-style: italic;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #000;
+  text-transform: capitalize;
+
+  opacity: 0.8;
+  border-radius: 6px;
+}
+.n-search input::placeholder {
+  color: #3f3634;
+  text-transform: capitalize;
+}
+.send-n {
+  position: relative;
+  right: 30px;
+  color: #3f3634;
+  cursor: pointer;
+}
+.send-n:hover {
+  font-size: 20px;
+  color: #3f3634;
+}

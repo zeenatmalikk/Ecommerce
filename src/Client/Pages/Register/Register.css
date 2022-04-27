@@ -1,0 +1,93 @@
+.sub-r{
+    font-family: "Alegreya SC", serif;
+font-size: 58px;
+margin: 10px;
+padding: 10px;
+}
+.desc-r{
+  font-family: "Oswald", sans-serif;
+  font-size: 20px;
+  font-weight: 200;
+  letter-spacing: 1.5px;
+  padding: 0px;
+  margin: 0px;
+  text-transform: capitalize;
+  margin: 10px;
+  padding: 10px;
+}
+.register{
+    height: 89.5vh;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("https://cdn.pixabay.com/photo/2017/10/13/16/25/sand-2848098_960_720.jpg")
+      center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    
+}
+.reg-card{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #f9f9f9;
+    box-shadow: 0 3px 4px ;
+    border-radius: 10px;
+    opacity: 1;
+}
+@media only screen and (max-width: 500px) {
+    .reg-card {
+        width: 100%;
+    
+    }
+  }
+.input-reg{
+    width: 80%;
+   padding: 10px;
+   margin: 10px;
+   border-radius: 5px;
+   outline: none;
+   border: 2px solid #000;
+   caret-color: #da251c;
+   background-color: #f9f9f9;
+
+}
+.input-reg::placeholder{
+    color: #333;
+    text-transform: capitalize;
+}
+.inputf{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.bg-right{
+    height: 89vh;
+background-color: #928C6F;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.pass-f{
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+.bgr-img{
+    object-fit: cover;
+    width: 70%;
+    height: 100%;
+}
+.myform{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
